@@ -1,0 +1,9 @@
+# 忽略所有文件和文件夹
+*
+
+# 但不忽略xxx.xpr文件
+!MLAF_7V.xpr
+!mlaf_7v_top.xsa
+
+# 确保.gitignore文件本身也被跟踪
+!.gitignore

@@ -1,0 +1,2 @@
+# 确保.gitignore文件本身也被跟踪
+!.gitignore

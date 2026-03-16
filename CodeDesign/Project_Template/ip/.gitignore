@@ -1,0 +1,19 @@
+# 忽略所有文件和文件夹
+*
+
+# 但不忽略包含.xci文件的目录
+!proc_sys_lvds_decoder_reset_control/
+!selectio_wiz_4lane_8factor/
+!mult_gen_32_24/
+!mult_gen_20_20/
+!mult_gen_16_16/
+
+# 但不忽略xxx.xci文件
+!proc_sys_lvds_decoder_reset_control/proc_sys_lvds_decoder_reset_control.xci
+!selectio_wiz_4lane_8factor/selectio_wiz_4lane_8factor.xci
+!mult_gen_32_24/mult_gen_32_24.xci
+!mult_gen_20_20/mult_gen_20_20.xci
+!mult_gen_16_16/mult_gen_16_16.xci
+
+# 确保.gitignore文件本身也被跟踪
+!.gitignore
